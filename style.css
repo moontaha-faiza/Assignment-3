@@ -86,9 +86,10 @@ input{
 }
 
 /* Student Feedback */
-.star-icon{
-    border: 1px solid F59E0B;
+.question-btn{
+    color:#289BDE ;
 }
+
 /* Frequently asked questions */
 .question-box{
     margin-left: 80px;
