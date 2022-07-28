@@ -89,3 +89,9 @@ input{
 .star-icon{
     border: 1px solid F59E0B;
 }
+/* Frequently asked questions */
+.question-box{
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
