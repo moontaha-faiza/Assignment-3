@@ -34,7 +34,8 @@
     opacity:0.7 ;
 }
 .heading{
-    bottom: -1%;
+    position: absolute;
+    bottom: 30%;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -50,4 +51,41 @@
 .button-3{
     background-color:#289BDE ;
     color: white;
+}
+/* Ready to join */
+.form{
+    background-color: #289BDE;
+}
+.button-4{
+    background-color: rgb(250, 252, 254);
+    color: #289BDE;
+}
+.form-cover{
+    background-color: rgb(125, 189, 232);
+}
+.modal-form{
+    font-size: 16px;
+    font-weight: 700px;
+    color: rgb(251, 251, 251);
+}
+input{
+    font-size: 16px;
+    font-weight: 400px;
+    width: 75%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button-5{
+    background-color:#289BDE ;
+    color: white;
+}
+
+/* Student Feedback */
+.star-icon{
+    border: 1px solid F59E0B;
 }
