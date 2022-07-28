@@ -36,8 +36,8 @@
 .heading{
     position: absolute;
     bottom: 30%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .button-2{
     background-color:#289BDE ;
@@ -104,11 +104,29 @@ input{
     margin-right: 80px;
 }
 
-
-
+/* -----------------
+        Tablet 
+--------------------*/
+@media screen and (max-width:768px){
+    .heading{
+        position: absolute;
+        bottom: 5%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* --------------------
+        Mobile 
+-----------------------*/
 @media screen and (max-width:576px){
     .img{
         display: flex;
         justify-content: center;
+    }
+    .heading{
+        position: absolute;
+        bottom: -1%;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
